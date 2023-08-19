@@ -1,0 +1,331 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    font-family: 'Varela Round', sans-serif;
+}
+
+/* Head Name code for all Section */
+.name-head {
+    margin-top: 18px;
+    display: flex;
+    justify-content: center;
+}
+
+.name-head h1 {
+    font-size: 32px;
+}
+
+/* Main Section */
+
+.bg-img {
+    background: url('../img/home.jpg') no-repeat center center/cover;
+    height: 540px;
+}
+
+.main-content {
+    margin-top: 140px;
+    display: flex;
+    justify-content: center;
+}
+
+.content-txt h1 {
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+.content-txt button {
+    padding: 8px 10px;
+    font-size: 16px;
+    background-color: #333536;
+    border: none;
+    border-radius: 15px;
+}
+
+.content-txt a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(224, 213, 213);
+}
+
+
+/* About Section */
+
+.about-content {
+    margin-top: 12px;
+    display: flex;
+    justify-content: center;
+}
+
+.about-profile {
+    padding: 10px;
+    width: 30%;
+}
+
+.about-profile img {
+    height: 220px;
+}
+
+.about-txt {
+    width: 50%;
+    padding: 12px;
+}
+
+.about-txt p {
+    text-align: justify;
+    padding: 4px;
+}
+
+
+/* Portfolio */
+
+.portfolio-content {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+}
+
+.projects {
+    width: 20%;
+    padding: 12px;
+    border: 2px solid rgb(128, 124, 124);
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.project-video {
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.project-video img {
+    height: 150px;
+    width: 100%;
+}
+
+.project-name {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.project-name h3 {
+    width: 100%;
+    text-align: center;
+}
+
+.project-name h3:hover {
+    color: blue;
+}
+
+.project-das p {
+    font-size: 12px;
+    text-align: center;
+}
+
+
+/* Service Content */
+
+.service-content {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.services-details {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.services {
+    width: 25%;
+    padding: 15px;
+    border-radius: 5px;
+    border: 2px solid rgb(197, 196, 196);
+}
+
+.service-img {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+}
+
+/* services icons style */
+.material-icons {
+    font-size: 80px;
+    color: #333536;
+}
+
+.service-name {
+    display: flex;
+    justify-content: center;
+}
+
+.service-txt {
+    padding: 8px;
+}
+
+.service-txt p {
+    text-align: center;
+    font-size: 14px;
+    padding: 5px;
+}
+
+/* Testimonial Section */
+
+
+.testimonial-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+.review-profile {
+    margin: 18px 0px;
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    gap: 8px;
+}
+
+.r-pic img {
+    height: 60px;
+}
+
+.review-para p {
+    font-size: 14px;
+}
+
+/* Contact Section */
+.con {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-section {
+    width: 82%;
+    margin-top: 10px;
+    display: flex;
+}
+
+.contact-details1 {
+    width: 58%;
+    padding: 20px 12px;
+}
+
+.contact-details1 p {
+   font-size: 17px;
+   padding: 12px 5px;
+}
+
+.contact-details2 {
+    width: 42%;
+    padding: 4px 6px;
+}
+
+form {
+    text-align: center;
+}
+
+input[type=text], textarea {
+    text-align: center;
+    width: 88%;
+    margin-top: 8px;
+    padding: 5px;
+    border: none;
+    border-bottom: 2px solid black;
+    resize: none;
+}
+
+.sub-btn {
+    display: block;
+    border: none;
+    background-color: rgb(34, 189, 34);
+    padding: 4px 8px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+
+/* footer */
+.footer {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(22, 22, 22);
+}
+
+.useful-links {
+    margin-top: 10px;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    padding: 12px 0px;
+}
+
+.tag-link {
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.link-txt {
+    width: 58%;
+    padding: 8px 16px;
+}
+
+.links {
+    width: 21%;
+}
+
+.tags {
+    width: 21%;
+}
+
+.link-txt h2 {
+    color: white;
+    padding: 8px;
+}
+
+.link-txt p {
+    color: white;
+    padding: 8px;
+    font-size: 15px;
+}
+
+.links ul li {
+    list-style: none;
+    padding: 4px 10px;
+    color: whitesmoke;
+    font-size: 14px;
+}
+
+.tags a {
+    font-size: 14px;
+    display: block;
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 4px 10px;
+}
+
+.links ul li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.tags a:hover {
+    text-decoration: underline;
+}
